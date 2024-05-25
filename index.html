@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>MemoryGame</title>
+  </head>
+  <body>
+    <div class='container'>
+      <h1 id='timer'>35</h1>
+  </div>
+     
+   <section class="memory-game">
+     <div class="memory-card" data-food="pancakes">
+       <img class="front-face" src="Img/1.png"/>
+       <img class="back-face" src="Img/1.svg"/>
+     </div>
+     <div class="memory-card" data-food="pancakes">
+       <img class="front-face" src="Img/1.png"/>
+         <img class="back-face" src="Img/1.svg"/>
+     </div>
+ 
+     <div class="memory-card" data-food="sushi">
+       <img class="front-face" src="Img/2.png"/>
+       <img class="back-face" src="Img/1.svg"/>
+     </div>
+     <div class="memory-card" data-food="sushi">
+       <img class="front-face" src="Img/2.png"/>
+         <img class="back-face" src="Img/1.svg"/>
+     </div>
+ 
+     <div class="memory-card" data-food="ice">
+       <img class="front-face" src="Img/3.png"/>
+       <img class="back-face" src="Img/1.svg"/>
+     </div>
+     <div class="memory-card" data-food="ice">
+       <img class="front-face" src="Img/3.png"/>
+         <img class="back-face" src="Img/1.svg"/>
+     </div>
+ 
+     <div class="memory-card" data-food="pizza">
+       <img class="front-face" src="Img/4.png"/>
+       <img class="back-face" src="Img/1.svg"/>
+     </div>
+     <div class="memory-card" data-food="pizza">
+       <img class="front-face" src="Img/4.png"/>
+         <img class="back-face" src="Img/1.svg"/>
+     </div>
+ 
+     <div class="memory-card" data-food="cake">
+       <img class="front-face" src="Img/5.png"/>
+       <img class="back-face" src="Img/1.svg"/>
+     </div>
+     <div class="memory-card" data-food="cake">
+       <img class="front-face" src="Img/5.png"/>
+         <img class="back-face" src="Img/1.svg"/>
+     </div>
+ 
+     <div class="memory-card" data-food="cola">
+       <img class="front-face" src="Img/6.png"/>
+       <img class="back-face" src="Img/1.svg"/>
+     </div>
+     <div class="memory-card" data-food="cola">
+         <img class="front-face" src="Img/6.png"/>
+         <img class="back-face" src="Img/1.svg"/>
+     </div>
+   </section>
+ 
+   <script src="script.js"></script>
+  <script src="script.js"></script>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
